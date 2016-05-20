@@ -1,0 +1,20 @@
+{{#extend "layout"}}
+
+  {{#append "head"}}
+  <title>Arrow - Template A</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/template-a.css" />
+  {{/append}}
+
+  {{#replace "body"}}
+
+  <h1>Template-A</h1>
+  <img src="/assets/img/earth-browser.png">
+  {{> carrousel }}
+
+  {{/replace}}
+
+  {{#append "footer"}}
+  <script src="/assets/js/template-a.js"></script>
+  {{/append}}
+
+{{/extend}}
